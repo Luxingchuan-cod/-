@@ -8,7 +8,6 @@ LastEditTime: 2022-02-02 17:22:06
 '''
 import streamlit as st
 import requests
-from streamlit_lottie import st_lottie
 from PIL import Image
 
 
@@ -60,8 +59,6 @@ def app():
                 """
             )
             st.write("[Bilibili Channel >](https://space.bilibili.com/76811961)")
-        with right_column:
-            st_lottie(lottie_coding, height=300, key="coding")
 
     # ---- Blender ----
     # Sphere

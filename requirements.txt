@@ -3,5 +3,4 @@ numpy==1.26.4
 matplotlib==3.9.2
 streamlit==1.37.1
 requests==2.32.3
-pages==0.3
 scikit-learn==1.5.1

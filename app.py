@@ -8,7 +8,6 @@ LastEditTime: 2022-02-02 17:29:36
 '''
 import streamlit as st
 from multipage import MultiPage
-from pages import home, machine_learning
 
 st.set_page_config(page_title="ML", page_icon=":tiger:", layout="wide")
 st.title('Machine Learning Application')
